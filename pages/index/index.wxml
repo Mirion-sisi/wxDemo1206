@@ -1,1 +1,5 @@
 <!-- 练习首页 -->
+<!-- 1.小程序的数据绑定 -->
+
+<button open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo">获取用户信息</button>
+<view wx:for='{{list}}'>{{item.title}}</view>

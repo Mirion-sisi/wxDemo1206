@@ -1,0 +1,20 @@
+<!--练习一数据绑定-->
+<text>姓名:{{name}}</text>
+<text>年龄:{{age}}</text>
+
+<!-- 2.列表展示，循环遍历 -->
+<view wx:for='{{students}}'>{{item.name}}</view>
+
+<!-- 3.事件监听 -->
+<view>{{counter}}</view>
+<button size="mini" bindtap="addBtnClick">+</button>
+<button size="mini" bindtap="subBtnClick">-</button>
+
+<!-- 获取用户信息的方式：3种 -->
+<!-- 1.在wxs文件中,wx.getUserInfo(res)获取，可能面临接口废弃的问题-->
+<!-- 2.button  -->
+<button size='mini'
+        open-type="getUserInfo"
+        bindgetuserinfo="handleGetUserInfo">获取用户信息</button>
+<!-- 3.组件open-data -->
+<open-data type='userNickName'></open-data>
