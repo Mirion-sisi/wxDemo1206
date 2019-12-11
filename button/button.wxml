@@ -1,0 +1,24 @@
+<!-- 1.button 的基本使用 -->
+<button>按钮</button>
+
+<!-- 2.属性 -->
+<!-- 2.1 size属性 -->
+<button size="mini">按钮</button>
+
+<!-- 2.2 type属性 ,遇到的坑：
+当app.json 中有style:'v2'配置时，warn只是文字变红，背景没变-->
+<button size="mini" type="warn">按钮</button>
+<button size="mini" type="primary">按钮</button>
+<button size="mini" type="default">按钮</button>
+
+<!-- 2.3 plain:镂空效果 -->
+<button size="mini" plain>按钮</button>
+
+<!-- 2.4 disabled 不可用 -->
+<button size="mini" disabled>按钮</button>
+
+<!-- 2.5 loading -->
+<button size="mini" loading>按钮</button>
+
+<!-- 2.6 hove-class -->
+<button hover-class="pressed">按钮</button>

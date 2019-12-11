@@ -1,0 +1,23 @@
+<!-- 1.text的借基本使用 -->
+<text>Hello World</text>
+<text>Hello World\n</text>
+<text>你好，小程序\n</text>
+
+<!-- 2.属性 -->
+<!-- 2.1 selectable:false 默认false，文本长按不能选中 -->
+<text selectable='{{true}}'>Hello World\n</text>
+<text selectable>Hello World</text>
+
+<!-- 2.2 space:决定文本空格的大小  -->
+<!-- ensp半个中文字符的大小 -->
+<!-- emsp一个中文字符的大小 -->
+<text>Hello World\n</text>
+<text space="nbsp">Hello World\n</text>
+<text space="emsp">Hello World\n</text>
+<text space="ensp">Hello World\n</text>
+
+<!-- 2.3 decode属性，是否解码文本 -->
+<text>5 &gt; 3\n</text>
+<text decode>5 &gt; 3</text>
+
+

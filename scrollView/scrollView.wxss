@@ -1,0 +1,27 @@
+.container1{
+  background-color: red;
+  white-space: nowrap
+}
+.view1{
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+  background-color: yellow
+}
+.container2,
+.container3
+{
+  margin-top: 20px;
+  background-color: blue;
+  height: 300px;
+}
+
+.view2,
+.view3
+{
+  height: 100px;
+  background-color: pink;
+  margin: 10px
+
+}

@@ -1,0 +1,15 @@
+<!-- 1.view基本使用 -->
+<view class="box">hello World</view>
+<view>hello World</view>
+
+<!-- 2. hove-class:当用户按组件时,显示的样式 ;
+       hover-start-time:默认50ms的动画
+       hover-stop-propagation阻止事件冒泡:默认不阻止-->
+<view class="par-view" hover-class="hove-par-view">
+<view class="box1" 
+hover-class="hove-view"
+hover-start-time='0'
+hover-stop-propagation
+>点击我</view>
+</view>
+

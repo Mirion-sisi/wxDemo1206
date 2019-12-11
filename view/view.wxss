@@ -1,0 +1,21 @@
+/* view/view.wxss */
+
+.box {
+  background-color: red;
+}
+
+.hove-par-view {
+  background-color: purple;
+  height: 200px;
+  width: 200px;
+}
+
+.box1 {
+  color: green;
+}
+
+.hove-view {
+  height: 100px;
+  width: 100px;
+  background-color: pink;
+}

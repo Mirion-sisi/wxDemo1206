@@ -1,0 +1,22 @@
+<!-- 事件对象:当某个实践触发时,会产生一个事件对象,并且这个对象被传到回调函数中,事件对象有那些常见的属性 -->
+
+<view bind:tap='handleTap'>事件对象</view>
+
+
+<!-- 事件传递参数;通过data-  来传递 -->
+<view class='container1'>
+  <block class='block1' wx:for='{{titles}}' wx:key='{{index}}'>
+    <view class="view1" bindtap="handleView1" data-item="{{item}}" data-index="{{index}}">{{item}}</view>
+  </block>
+</view>
+
+<!-- 事件冒泡和事件捕获 -->
+<!-- bind:一层层传递 -->
+<!-- catch:阻止事件的进一步传递 -->
+<view class="item1" capture-bind:tap='handleCapture1' bindtap="handleBind1">
+  <view class="item2" capture-bind:tap='handleCapture2' catchtap="handleBind2">
+    <view class="item3" capture-bind:tap='handleCapture3' bindtap="handleBind3"></view>
+
+  </view>
+
+</view>

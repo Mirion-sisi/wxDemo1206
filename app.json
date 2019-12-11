@@ -1,7 +1,14 @@
 {
   "pages": [
+    "button/button",
+    "text/text",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "view/view",
+    "image/image",
+    "input/input",
+    "scrollView/scrollView",
+    "eventobject/eventobject"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -9,6 +16,5 @@
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
   },
-  "style": "v2",
   "sitemapLocation": "sitemap.json"
 }
