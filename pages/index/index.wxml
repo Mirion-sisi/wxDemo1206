@@ -1,0 +1,13 @@
+<!-- 展示弹窗：4中方式 -->
+<view>弹窗展示</view>
+
+<!-- Toast -->
+
+<button type="primary" size="mini" bind:tap="handleToast">Toast弹窗</button>
+<button type="primary" size="mini" bind:tap="handleModal">Modal弹窗</button>
+<button type="primary" size="mini" bind:tap="handleLoading">Loading弹窗</button>
+<button type="primary" size="mini" bind:tap="handleAction">Action弹窗</button>
+
+
+<!-- 分享 -->
+<button size="mini" open-type="share">分享</button>
